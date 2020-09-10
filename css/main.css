@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Raleway:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.formato-nav {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: #24252a !important;
+}
+
+.nav__titulo {
+    font-size: 20px;
+}
+
+.nav__titulo span {
+    color: #7de1fa;
+}
+
+#navbar-boton li {
+    padding: 0px 15px 0px 15px;
+}
+
+.fecha {
+    color: rgb(49, 48, 48);
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.github-icon {
+    padding: 0px 15px 0px 15px;
+    color:white;
+    text-decoration: none;
+}
+
+.github-icon:hover {
+    color:white;
+}
+
+footer {
+    position: relative;
+    background-color: #24252a;
+    text-align: center;
+    color: white;
+    height: 70px;
+}
+
+.adivinanza, .gif-gol {
+    width: 80%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titulo-adivinanza {
+    font-family: 'Monoton', cursive;
+    font-weight: 400;
+    text-align: center;
+    font-size: 45px;
+}
+
+footer h4 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+table {
+    text-align: center;
+}
+
+table img {
+    width: 50px;
+}
+
+.cabezera {
+    background-image: url(../img/imagen_noticia.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.wrapper {
+    margin: 75px 9vw 0px 9vw;
+}
+
+article {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+article h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.hidden {
+    display: none;
+}
+
+#titulo {
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@media (max-width: 756px) {
+    .wrapper {
+        margin: 75px 0 0px 0;
+    }
+    .formato-nav {
+        padding-left: 4vw;
+        padding-right: 3vw;
+    }
+    .github-icon {
+        float: right;
+        padding-top: 70px;
+    }
+    #navbar-boton ul {
+        float: left;
+    }
+    #navbar-boton li {
+        padding: 0;
+    }
+    #titulo {
+        top: 65%;
+        left: 50%;
+        -webkit-text-stroke: 1px rgb(189, 184, 184);
+
+        font-size: 35px;
+        font-family: 'Anton', sans-serif;
+        font-weight: 400;
+        width: 85%;
+    }
+    .adivinanza, .gif-gol {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    table {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    table img {
+        width: 35px;
+    }
+    
+}
